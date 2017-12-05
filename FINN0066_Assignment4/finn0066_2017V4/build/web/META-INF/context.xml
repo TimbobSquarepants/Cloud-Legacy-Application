@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/finn0066_2017">
+
+
+
+              <Resource name="jdbc/finn0066"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="finn0066"
+              password="2157787"
+               maxActive="100" 
+               maxIdle="30" 
+               maxWait="10000"
+               driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://mysql.csem.flinders.edu.au:3306/finn0066?zeroDateTimeBehavior=convertToNull"/>
+              
+              <Resource name="jdbc/finn0066a"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="finn0066a"
+              password="2157787"
+               maxActive="100" 
+               maxIdle="30" 
+               maxWait="10000"
+               driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://mysql.csem.flinders.edu.au:3306/finn0066a?zeroDateTimeBehavior=convertToNull"/>
+              
+              </Context>

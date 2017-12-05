@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/finn0066_2017">
+
+
+
+              <Resource name="jdbc/ecs2017"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="entsys"
+              password="entsys"
+               maxActive="100" 
+               maxIdle="30" 
+               maxWait="10000"
+               driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://mysql.csem.flinders.edu.au:3306/finn0066?zeroDateTimeBehavior=convertToNull"/>
+              
+              </Context>
